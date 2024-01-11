@@ -1,9 +1,12 @@
 ![Alt text](image-1.png)
-Projeto: Minhas tarefas! focado em React e Javascript
+
+###Projeto: 
+Minhas tarefas! focado em React e Javascript
 React é  uma biblioteca para criar interfaces de usuários/ conceito de componentes /faça uma vez use toda hora! !
+
 [Alt text](image.png)
 ==========================================================================================================================================================
-Foi visto neste projeto: 
+### Foi visto neste projeto: 
 React e Javascript : useState>: 
 O useState é um hook do React que permite adicionar estado a componentes funcionais. Antes dos hooks, os componentes funcionais no React não tinham estado interno. Com o useState, você pode declarar variáveis de estado dentro de seus componentes, permitindo que eles mantenham e atualizem o estado local.A função useState retorna um array com dois elementos:
 O primeiro elemento é o valor atual do estado.
