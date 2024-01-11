@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+![Alt text](image-1.png)
+Projeto: Minhas tarefas! focado em React e Javascript
+React é  uma biblioteca para criar interfaces de usuários/ conceito de componentes /faça uma vez use toda hora! !
+[Alt text](image.png)
+==========================================================================================================================================================
+Foi visto neste projeto: 
+React e Javascript : useState>: 
+O useState é um hook do React que permite adicionar estado a componentes funcionais. Antes dos hooks, os componentes funcionais no React não tinham estado interno. Com o useState, você pode declarar variáveis de estado dentro de seus componentes, permitindo que eles mantenham e atualizem o estado local.A função useState retorna um array com dois elementos:
+O primeiro elemento é o valor atual do estado.
+O segundo elemento é uma função que permite modificar esse estado.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PROPS: As props são um objeto que contém propriedades e valores associados a essas propriedades/As props são uma maneira eficiente e flexível de transmitir dados entre componentes em uma aplicação React, permitindo uma composição modular e reutilização de componentes.
+==========================================================================================================================================================
 
-## Available Scripts
+UuseParams:
+ No contexto do React Router, o hook useParams é usado para acessar os parâmetros passados em uma URL. Quando você define um parâmetro em uma rota usando o caractere : na configuração da rota, o valor desse parâmetro pode ser acessado por meio do useParams no componente correspondente.
+ Se a URL for /user/johndoe, o useParams no componente UserProfile irá retornar um objeto com a propriedade username contendo o valor "johndoe". Você pode então usar esse valor para renderizar dinamicamente o conteúdo do componente com base no valor do parâmetro na URL.
 
-In the project directory, you can run:
+Isso é particularmente útil quando você precisa criar componentes reutilizáveis que dependem de dados específicos na URL, como detalhes do usuário, IDs de postagem, etc. O useParams facilita a extração desses valores da URL no componente.
 
-### `npm start`
+==========================================================================================================================================================
+useNavigation é usado para obter o objeto de navegação, e a função navigate é usada para navegar para uma tela específica quando o botão é pressionado. Lembre-se de substituir 'NomeDaSuaTela' pelo nome real da tela para a qual você deseja navegar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+==========================================================================================================================================================
+O useEffect é um hook em React que permite que você realize efeitos colaterais em componentes funcionais. Pode ser usado para executar código em resposta a mudanças no estado, propriedades ou durante a montagem/desmontagem do componente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O primeiro useEffect é executado apenas uma vez após a montagem do componente devido ao segundo argumento, a array vazia [].
+O segundo useEffect é executado sempre que o estado dados é alterado.
+Você pode ajustar o segundo argumento do useEffect conforme necessário, dependendo de quando você deseja que o efeito seja disparado. Se você passar uma array vazia, ele será executado apenas uma vez (equivalente ao componentDidMount em componentes de classe). Se você passar uma array de dependências, o efeito será executado sempre que essas dependências mudarem. Se você omitir o segundo argumento, o efeito será executado após cada renderização.
+![Alt text](image-4.png)
+==========================================================================================================================================================
+iniciando o projeto: 
+- Vscode:Extesoes: Simple react Snippets/ Prettier code format
+- React 
+- Node.js
+Bibliotecas: 
+npm install uuid (gerar id aleatorio)
+npm install react-icons --save (Alguns icones para aplicação)
+![Alt text](image-2.png)
+IMPORTAÇÃO DA BIBLIOTECA AXIOS para chamda da api 
+API = https://jsonplaceholder.cypress.io/todos?_limit=10
+![Alt text](image-3.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
