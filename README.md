@@ -1,4 +1,7 @@
-![Alt text](image-1.png)
+![Alt text](image-1.png) / ![image](https://github.com/yago-maker/Tasks-taks-witchReact/assets/87579180/733578b1-0a2b-4830-b205-f1fb3bc5726c)
+![image](https://github.com/yago-maker/Tasks-taks-witchReact/assets/87579180/3e50913a-4dbc-4342-9354-c01e9deb6d2d) /![image](https://github.com/yago-maker/Tasks-taks-witchReact/assets/87579180/e5603c0a-23c8-4ade-b60f-c9ce0912a4ef)
+
+
 
 ###Projeto: 
 Minhas tarefas! focado em React e Javascript
